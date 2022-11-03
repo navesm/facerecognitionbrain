@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family:'Courier New', monospace; 
+    
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+background: linear-gradient(to right, rgb(227, 118, 229), rgb(36, 97, 255));
+}
+
+code {
+  font-family: 'Courier New', monospace -apple-system, BlinkMacSystemFont,source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
