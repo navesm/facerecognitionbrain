@@ -12,7 +12,7 @@ import './App.css';
 
 const initialState = {
   input:'',
-  imageUrl:"",
+  imageUrl:'',
   box: {},
   route: 'SignIn',
   isSignedIn: false,
@@ -28,7 +28,7 @@ const initialState = {
 class App extends Component{
   constructor() {
     super();
-    this.state = initialState;
+    state = initialState;
   }
 
   loadUser = (data) => {
