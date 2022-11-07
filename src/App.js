@@ -28,7 +28,7 @@ const initialState = {
 class App extends Component{
   constructor() {
     super();
-    state = initialState;
+    this.state = initialState;
   }
 
   loadUser = (data) => {
